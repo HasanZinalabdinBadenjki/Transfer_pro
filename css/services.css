@@ -1,0 +1,10 @@
+.main{
+    background-image: url(../materials/images/Services/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 657px;
+    position: relative; 
+}
+.hero-services{
+        top: 55%;
+}

@@ -1,0 +1,8 @@
+.main{
+    background-image: url(../materials/images/blog/Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    position: relative; 
+}
+

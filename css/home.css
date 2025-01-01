@@ -1,0 +1,252 @@
+/* star section1 */
+.main{
+    background-image: url(../materials/images/home/hero-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 995px;
+    position: relative;
+}
+
+
+.hero p{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.div-ptn{
+    width: 194px;
+    height: 60px;
+    overflow: hidden;
+}
+.hero button{
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    border: 1px;
+    width: 194px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.6px;
+    overflow: hidden;
+}
+
+.hero .circt{
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: -27px;
+    left: 167px;
+}
+/* end section1 */
+/* star section2 */
+.service-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+
+  .service-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+
+  .section-title {
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .service-description {
+    color: #666;
+    font-size: 14px;
+  }
+
+  .highlight {
+    color: #ffc107; /* Yellow highlight color */
+    font-weight: bold;
+  }
+  .span-txt2{
+    background-color: #e8e8e8a6;
+    color: black;
+    padding-left: 10px;
+    position: relative;
+}
+  .aw span::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    width: 6px;
+    height: 100%;
+  }
+.aw h2{
+  font-family: Rubik;
+  font-size: 35px;
+  }
+  .service-icon{
+    position: relative;
+  }
+  .service-txt{
+    position: relative;
+    padding: 20px;
+  }
+.service-txt::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10%;
+  background:#d8d8d88b;
+  width: 1px;
+  height: 70%;
+}
+/* end section2 */
+/* star div img */
+.bacg{
+  width: 100%;
+  height: 504px;
+  gap: 0px;
+  opacity: 0px;
+  position: relative;
+}
+.bacg img{
+  width: 100%;
+}
+/* end div img */
+/* star section3*/
+.section-absolute {
+  position: absolute;
+  padding: 100px;
+  width: 75%;
+  height: 547px;
+  top: 59%;
+  left: 7%;
+  background-color: white;
+  display: flex;
+}
+.section-txt{
+  width: 50%;
+}
+.section-txt .span-txt2::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+  width: 6px;
+  height: 100%;
+}
+.section-txt h2{
+  font-family: Rubik;
+  font-size: 35px;
+  color: #1C1F35;
+}
+.section-txt p{
+  font:Krub ;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24.24px;
+  color: #666C89;
+}
+.section-icon {
+  background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+/* end section3*/
+/* start div*/
+.stat-box h2{
+  font-family: Rubik;
+  font-size: 50px;
+  color: #1C1F35;
+}
+.stat-box p{
+  font-family: League Spartan;
+  font-size: 20px;
+  color: #1C1F35;
+}
+.stat-box div{
+  display: flex;
+  align-items: center;
+} 
+.after{
+  position: relative;
+}
+.after-row::after{
+  content: "";
+  position: absolute;
+  width: 85%;
+  height: 1px;
+  background-color: #d4d4d47a;
+  top: 0;
+}
+.after-row::before{
+  content: "";
+  position: absolute;
+  width: 85%;
+  height: 1px;
+  background-color: #d4d4d47a;
+  bottom:0;
+}
+.colom::after{
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #d4d4d47a;
+  top: 0;
+  right: 52%;
+  
+}
+/* end div*/
+/* start img-explain */
+.imgs-explain{
+  position: relative;
+}
+.img-explain{
+  position: relative;
+}
+.img-explain img{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.txt-explain {
+  position: absolute;
+  top: 78%;
+  left: 12px;
+}
+.txt-explain h5{
+  font-family: Rubik;
+  font-size: 17px;
+  color: #FFFFFF;
+}
+.txt-explain span{
+  font-family: Krub;
+  font-size: 14px;
+  color: #FFB629;
+}
+.div-ptn2 button{
+  background-image: url(../materials/images/home/btnbg.png);
+  color: white;
+  border: 1px;
+  width: 194px;
+  height: 50px;    
+}
+.yello{
+  
+  background: linear-gradient(95deg, #FFB629 -1.19%, #FFDA56 57.78%, #FFD7A6 115.08%);
+  width: 100%;
+  height: 300px;
+}
+/* start photo */
+.photo img{
+  width: 100%;
+}
+/* end photo */

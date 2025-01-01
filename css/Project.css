@@ -1,0 +1,8 @@
+.main{
+    background-image: url(../materials/images/project/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+    
+}

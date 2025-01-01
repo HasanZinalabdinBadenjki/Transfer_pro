@@ -1,0 +1,10 @@
+.main{
+    background-image: url(../materials/images/blog-single/Image.png);
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    position: relative; 
+}
+.hero-services{
+    top: 25%;
+}

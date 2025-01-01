@@ -1,0 +1,7 @@
+.main{
+    background-image: url(../materials/images/Pricing/Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+}
